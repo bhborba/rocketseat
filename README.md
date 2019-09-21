@@ -118,6 +118,7 @@ Disponível em https://github.com/Rocketseat/bootcamp-gostack-desafio-01
 #### Desafio 03: Durante esse desafio vamos aprimorar a aplicação Meetapp que demos início no desafio anterior implementando funcionalidades que aprendemos durante as aulas até agora.
 
 Desafio 02 disponível em https://github.com/Rocketseat/bootcamp-gostack-desafio-02
+
 Desafio 03 disponível em https://github.com/Rocketseat/bootcamp-gostack-desafio-03
 
 ### Desafio 04 - Introdução ao React
