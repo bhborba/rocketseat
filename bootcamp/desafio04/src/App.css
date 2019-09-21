@@ -1,0 +1,93 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(223, 219, 219);
+}
+
+header {
+    background-color: #3b5998;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+    padding: 0 42px;
+    min-width: 980px;
+}
+
+nav div {
+    position: absolute;
+    right: 40px;
+    display: flex;
+
+}
+
+header .perfil {
+    height: 30px;
+    align-self: center;
+}
+
+header span {
+    margin-left: auto;
+    margin-right: 10px;
+    color: #ffffff;
+    align-self: center;
+}
+
+div .post {
+    max-width: 900px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 40px auto;
+
+}
+
+div .postHeader{
+    align-items: center;
+    display: flex;
+}
+
+div .avatar {
+    height: 50px;
+    align-self: center;
+    float: left;
+}
+
+div .details {
+    display:inline-block;
+    margin-left: 10px;
+}
+
+div .authorName {
+    font-weight: bold;
+}
+
+div .date {
+    color: grey;
+}
+
+hr {
+    border-top: 1px;
+    color: #E8E8E8;
+    
+}
+
+div .commentContent {
+    background-color: #E8E8E8;
+    border-radius: 8px;
+    margin-left: 70px;
+    padding: 10px 15px;
+}
+
+
+
+div .comment {
+    margin-top: 20px;
+}
+
