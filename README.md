@@ -126,3 +126,10 @@ Desafio 03 disponível em https://github.com/Rocketseat/bootcamp-gostack-desafio
 #### Crie uma aplicação do zero utilizando Webpack, Babel, Webpack Dev Server e ReactJS.
 
 Disponível em: https://github.com/Rocketseat/bootcamp-gostack-desafio-04
+
+### Desafio 05 - Aplicação com ReactJS
+
+####Nesse desafio você adicionará novas funcionalidades na aplicação que desenvolvemos ao longo desse módulo.
+
+Disponível em: https://github.com/Rocketseat/bootcamp-gostack-desafio-05
+
