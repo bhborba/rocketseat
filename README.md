@@ -106,6 +106,12 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - Exibindo repositório
   - Exibindo issues
 
+### modulo 06 - Primeiro projeto com React Native
+
+  - Conceitos do React Native
+  - Ambiente de desenvolvimento
+  - Criando projeto
+
 ### Desafio 01 - Dominando Node.js!
 
 #### Crie uma aplicação do zero utilizando Express.
