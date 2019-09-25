@@ -114,6 +114,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - ESLint, Prettier & EditorConfig
   - Configurando Reactotron
   - React Navigation
+  - Configurando StatusBar
 
 ### Desafio 01 - Dominando Node.js!
 
