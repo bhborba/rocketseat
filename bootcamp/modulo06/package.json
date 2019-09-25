@@ -14,7 +14,8 @@
     "react-native-reanimated": "^1.2.0",
     "react-navigation": "^4.0.9",
     "react-navigation-stack": "^1.9.0",
-    "reactotron-react-native": "^4.0.1"
+    "reactotron-react-native": "^4.0.1",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

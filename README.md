@@ -115,6 +115,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - Configurando Reactotron
   - React Navigation
   - Configurando StatusBar
+  - Styled Components
 
 ### Desafio 01 - Dominando Node.js!
 
