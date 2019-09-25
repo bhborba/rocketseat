@@ -111,6 +111,9 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - Conceitos do React Native
   - Ambiente de desenvolvimento
   - Criando projeto
+  - ESLint, Prettier & EditorConfig
+  - Configurando Reactotron
+  - React Navigation
 
 ### Desafio 01 - Dominando Node.js!
 

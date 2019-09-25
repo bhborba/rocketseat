@@ -10,6 +10,10 @@
   "dependencies": {
     "react": "16.8.6",
     "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-navigation": "^4.0.9",
+    "react-navigation-stack": "^1.9.0",
     "reactotron-react-native": "^4.0.1"
   },
   "devDependencies": {
