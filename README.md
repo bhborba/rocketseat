@@ -117,6 +117,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - Configurando StatusBar
   - Styled Components
   - Estilizando Formulário
+  - Acessando API do Github
 
 ### Desafio 01 - Dominando Node.js!
 
