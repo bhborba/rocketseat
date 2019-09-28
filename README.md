@@ -118,6 +118,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - Styled Components
   - Estilizando Formulário
   - Acessando API do Github
+  - Estilizando listagem
 
 ### Desafio 01 - Dominando Node.js!
 
