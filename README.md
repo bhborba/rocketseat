@@ -116,6 +116,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - React Navigation
   - Configurando StatusBar
   - Styled Components
+  - Estilizando Formulário
 
 ### Desafio 01 - Dominando Node.js!
 
