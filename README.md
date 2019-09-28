@@ -121,6 +121,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - Estilizando listagem
   - Loading e disabled
   - Salvando no storage
+  - Realizando navegação
 
 ### Desafio 01 - Dominando Node.js!
 
