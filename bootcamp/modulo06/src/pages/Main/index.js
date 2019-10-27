@@ -1,3 +1,5 @@
+/* eslint-disable react/state-in-constructor */
+/* eslint-disable react/static-property-placement */
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Keyboard, ActivityIndicator} from 'react-native';
