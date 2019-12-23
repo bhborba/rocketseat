@@ -130,6 +130,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Conceitos do Redux
 - Estrutura do projeto
 - Configurando rotas
+- Estilos globais
 
 ### Desafio 01 - Dominando Node.js!
 
