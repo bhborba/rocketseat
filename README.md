@@ -132,6 +132,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando rotas
 - Estilos globais
 - Criando Header
+- Estilização da Home
 
 ### Desafio 01 - Dominando Node.js!
 
