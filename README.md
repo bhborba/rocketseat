@@ -133,6 +133,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Estilos globais
 - Criando Header
 - Estilização da Home
+- Estilização do Carrinho
 
 ### Desafio 01 - Dominando Node.js!
 
