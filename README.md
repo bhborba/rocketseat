@@ -131,6 +131,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Estrutura do projeto
 - Configurando rotas
 - Estilos globais
+- Criando Header
 
 ### Desafio 01 - Dominando Node.js!
 
