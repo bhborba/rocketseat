@@ -124,6 +124,12 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
   - Realizando navegação
   - Buscando dados da API
   - Listando favoritos
+  
+### modulo 07 - Arquitetura Flux
+
+- Conceitos do Redux
+- Estrutura do projeto
+- Configurando rotas
 
 ### Desafio 01 - Dominando Node.js!
 
