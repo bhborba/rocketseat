@@ -1,107 +1,46 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { MdAddShoppingCart } from 'react-icons/md';
+import { formatPrice } from '../../util/format';
+import api from '../../services/api';
 
 import { ProductList } from './styles';
 
-export default function Home() {
-    return (
-        <ProductList>
-            <li>
-                <img
-                    src="https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg"
-                    alt="Tênis"
-                />
-                <strong>Tênis</strong>
-                <span>R$ 129,90</span>
+export default class Home extends Component {
+    state = {
+        products: [],
+    };
 
-                <button type="button">
-                    <div>
-                        <MdAddShoppingCart size={16} color="#FFF" /> 3
-                    </div>
+    async componentDidMount() {
+        const response = await api.get('products');
 
-                    <span>ADICIONAR AO CARRINHO</span>
-                </button>
-            </li>
-            <li>
-                <img
-                    src="https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg"
-                    alt="Tênis"
-                />
-                <strong>Tênis</strong>
-                <span>R$ 129,90</span>
+        const data = response.data.map(product => ({
+            ...product,
+            priceFormated: formatPrice(product.price),
+        }));
 
-                <button type="button">
-                    <div>
-                        <MdAddShoppingCart size={16} color="#FFF" /> 3
-                    </div>
+        this.setState({ products: data });
+    }
 
-                    <span>ADICIONAR AO CARRINHO</span>
-                </button>
-            </li>
-            <li>
-                <img
-                    src="https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg"
-                    alt="Tênis"
-                />
-                <strong>Tênis</strong>
-                <span>R$ 129,90</span>
+    render() {
+        const { products } = this.state;
+        return (
+            <ProductList>
+                {products.map(product => (
+                    <li key={product.id}>
+                        <img src={product.image} alt={product.title} />
+                        <strong>{product.title}</strong>
+                        <span>{product.priceFormated}</span>
 
-                <button type="button">
-                    <div>
-                        <MdAddShoppingCart size={16} color="#FFF" /> 3
-                    </div>
+                        <button type="button">
+                            <div>
+                                <MdAddShoppingCart size={16} color="#FFF" /> 3
+                            </div>
 
-                    <span>ADICIONAR AO CARRINHO</span>
-                </button>
-            </li>
-            <li>
-                <img
-                    src="https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg"
-                    alt="Tênis"
-                />
-                <strong>Tênis</strong>
-                <span>R$ 129,90</span>
-
-                <button type="button">
-                    <div>
-                        <MdAddShoppingCart size={16} color="#FFF" /> 3
-                    </div>
-
-                    <span>ADICIONAR AO CARRINHO</span>
-                </button>
-            </li>
-            <li>
-                <img
-                    src="https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg"
-                    alt="Tênis"
-                />
-                <strong>Tênis</strong>
-                <span>R$ 129,90</span>
-
-                <button type="button">
-                    <div>
-                        <MdAddShoppingCart size={16} color="#FFF" /> 3
-                    </div>
-
-                    <span>ADICIONAR AO CARRINHO</span>
-                </button>
-            </li>
-            <li>
-                <img
-                    src="https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg"
-                    alt="Tênis"
-                />
-                <strong>Tênis</strong>
-                <span>R$ 129,90</span>
-
-                <button type="button">
-                    <div>
-                        <MdAddShoppingCart size={16} color="#FFF" /> 3
-                    </div>
-
-                    <span>ADICIONAR AO CARRINHO</span>
-                </button>
-            </li>
-        </ProductList>
-    );
+                            <span>ADICIONAR AO CARRINHO</span>
+                        </button>
+                    </li>
+                ))}
+            </ProductList>
+        );
+    }
 }
