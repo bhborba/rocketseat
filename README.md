@@ -136,6 +136,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Estilização do Carrinho
 - Configurando API
 - Buscando produtos da API
+- Configurando o Redux
 
 ### Desafio 01 - Dominando Node.js!
 
