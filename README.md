@@ -138,6 +138,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Buscando produtos da API
 - Configurando o Redux
 - Adicionando ao carrinho
+- Reactotron + Redux
 
 ### Desafio 01 - Dominando Node.js!
 
