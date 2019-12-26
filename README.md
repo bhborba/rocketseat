@@ -143,6 +143,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Produto duplicado
 - Remover produto
 - Refatorando as actions
+- Alterando quantidade
 
 ### Desafio 01 - Dominando Node.js!
 
