@@ -151,6 +151,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Separando actions
 - Estoque na adição
 - React Toastify
+- Estoque na alteração
 
 ### Desafio 01 - Dominando Node.js!
 
