@@ -145,6 +145,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Refatorando as actions
 - Alterando quantidade
 - Calculando totais
+- Exibindo quantidades
 
 ### Desafio 01 - Dominando Node.js!
 
