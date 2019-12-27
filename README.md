@@ -150,6 +150,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Reactotron + Saga
 - Separando actions
 - Estoque na adição
+- React Toastify
 
 ### Desafio 01 - Dominando Node.js!
 
