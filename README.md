@@ -149,6 +149,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando Redux Saga
 - Reactotron + Saga
 - Separando actions
+- Estoque na adição
 
 ### Desafio 01 - Dominando Node.js!
 
