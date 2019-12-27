@@ -146,6 +146,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Alterando quantidade
 - Calculando totais
 - Exibindo quantidades
+- Configurando Redux Saga
 
 ### Desafio 01 - Dominando Node.js!
 
