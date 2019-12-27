@@ -152,6 +152,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Estoque na adição
 - React Toastify
 - Estoque na alteração
+- Navegando no Saga
 
 ### Desafio 01 - Dominando Node.js!
 
