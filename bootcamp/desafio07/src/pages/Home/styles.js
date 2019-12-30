@@ -2,8 +2,6 @@ import styled from 'styled-components/native';
 import { darken } from 'polished';
 
 export const ProductList = styled.View`
-    flex: 1;
-    padding: 30px;
     background: #191920;
 `;
 
