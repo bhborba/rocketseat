@@ -1,6 +1,10 @@
 import React from 'react';
-
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import * as CartActions from '../../store/modules/cart/actions';
+
+import { formatPrice } from '../../util/format';
 
 import {
     Container,
@@ -22,62 +26,123 @@ import {
     ProductAmount,
     ProductSubtotal,
     Final,
+    EmptyContainer,
+    EmptyText,
 } from './styles';
 
-export default function Cart() {
+function Cart({
+    navigation,
+    products,
+    total,
+    removeFromCart,
+    updateAmountRequest,
+}) {
+    function decrement(product) {
+        updateAmountRequest(product.id, product.amount - 1);
+    }
+
+    function increment(product) {
+        updateAmountRequest(product.id, product.amount + 1);
+    }
+
     return (
         <Container>
-            <ProductTable>
-                <Product>
-                    <ProductInfo>
-                        <ProductImage
-                            source={{
-                                uri:
-                                    'https://static.netshoes.com.br/produtos/tenis-adidas-grand-court-base-feminino/05/COL-7145-205/COL-7145-205_zoom1.jpg',
-                            }}
-                        />
-                        <ProductDetails>
-                            <ProductTitle>Tenis daora</ProductTitle>
-                            <ProductPrice>R$2000</ProductPrice>
-                        </ProductDetails>
-                        <ProductDelete>
-                            <Icon
-                                name="delete-forever"
-                                size={24}
-                                color="#7159c1"
-                            />
-                        </ProductDelete>
-                    </ProductInfo>
-                    <ProductControls>
-                        <ProductControlButton>
-                            <Icon
-                                name="remove-circle-outline"
-                                size={20}
-                                color="#7159c1"
-                            />
-                        </ProductControlButton>
-                        <ProductAmount>3</ProductAmount>
-                        <ProductControlButton>
-                            <Icon
-                                name="add-circle-outline"
-                                size={20}
-                                color="#7159c1"
-                            />
-                        </ProductControlButton>
-                        <ProductSubtotal>R$ 6000</ProductSubtotal>
-                    </ProductControls>
-                </Product>
-            </ProductTable>
+            {products.length ? (
+                <>
+                    <ProductTable>
+                        {products.map(product => (
+                            <Product key={product.id}>
+                                <ProductInfo>
+                                    <ProductImage
+                                        source={{
+                                            uri: product.image,
+                                        }}
+                                    />
+                                    <ProductDetails>
+                                        <ProductTitle>
+                                            {product.title}
+                                        </ProductTitle>
+                                        <ProductPrice>
+                                            {product.priceFormatted}
+                                        </ProductPrice>
+                                    </ProductDetails>
+                                    <ProductDelete
+                                        onPress={() =>
+                                            removeFromCart(product.id)
+                                        }
+                                    >
+                                        <Icon
+                                            name="delete-forever"
+                                            size={24}
+                                            color="#7159c1"
+                                        />
+                                    </ProductDelete>
+                                </ProductInfo>
+                                <ProductControls>
+                                    <ProductControlButton
+                                        onPress={() => decrement(product)}
+                                    >
+                                        <Icon
+                                            name="remove-circle-outline"
+                                            size={20}
+                                            color="#7159c1"
+                                        />
+                                    </ProductControlButton>
+                                    <ProductAmount
+                                        value={String(product.amount)}
+                                    />
+                                    <ProductControlButton
+                                        onPress={() => increment(product)}
+                                    >
+                                        <Icon
+                                            name="add-circle-outline"
+                                            size={20}
+                                            color="#7159c1"
+                                        />
+                                    </ProductControlButton>
+                                    <ProductSubtotal>
+                                        {product.subtotal}
+                                    </ProductSubtotal>
+                                </ProductControls>
+                            </Product>
+                        ))}
+                    </ProductTable>
 
-            <Final>
-                <Total>
-                    <TotalText>TOTAL</TotalText>
-                    <TotalPrice>R$ 1200</TotalPrice>
-                </Total>
-                <Order>
-                    <EndOrderButton>Finalizar Pedido</EndOrderButton>
-                </Order>
-            </Final>
+                    <Final>
+                        <Total>
+                            <TotalText>TOTAL</TotalText>
+                            <TotalPrice>{total}</TotalPrice>
+                        </Total>
+                        <Order>
+                            <EndOrderButton>Finalizar Pedido</EndOrderButton>
+                        </Order>
+                    </Final>
+                </>
+            ) : (
+                <EmptyContainer>
+                    <Icon name="remove-shopping-cart" size={64} color="#eee" />
+                    <EmptyText>Seu carrinho está vazio.</EmptyText>
+                </EmptyContainer>
+            )}
         </Container>
     );
 }
+
+const mapStateToProps = state => ({
+    products: state.cart.map(product => ({
+        ...product,
+        subtotal: formatPrice(product.price * product.amount),
+        priceFormatted: formatPrice(product.price),
+    })),
+    total: formatPrice(
+        state.cart.reduce(
+            (total, product) => total + product.price * product.amount,
+            0
+        )
+    ),
+});
+
+const mapDispatchToProps = dispatch =>
+    bindActionCreators(CartActions, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(Cart);
