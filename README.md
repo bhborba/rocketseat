@@ -162,6 +162,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Hook useMemo
 - Hook useCallback
 - Convertendo em classe
+- Hooks com Redux
 
 ### Desafio 01 - Dominando Node.js!
 
