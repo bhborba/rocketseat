@@ -154,6 +154,10 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Estoque na alteração
 - Navegando no Saga
 
+### modulo 08 - Utilizando React Hooks
+
+- Configurando estrutura
+
 ### Desafio 01 - Dominando Node.js!
 
 #### Crie uma aplicação do zero utilizando Express.
