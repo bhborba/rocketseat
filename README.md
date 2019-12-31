@@ -160,6 +160,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Hook useState
 - Hook useEffect
 - Hook useMemo
+- Hook useCallback
 
 ### Desafio 01 - Dominando Node.js!
 
