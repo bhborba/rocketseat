@@ -157,6 +157,9 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 ### modulo 08 - Utilizando React Hooks
 
 - Configurando estrutura
+- Hook useState
+- Hook useEffect
+- Hook useMemo
 
 ### Desafio 01 - Dominando Node.js!
 
