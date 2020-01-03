@@ -164,6 +164,11 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Convertendo em classe
 - Hooks com Redux
 
+### modulo 09 - GoBarber web
+
+- Estrutura configurada
+
+
 ### Desafio 01 - Dominando Node.js!
 
 #### Crie uma aplicação do zero utilizando Express.
