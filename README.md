@@ -167,6 +167,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 ### modulo 09 - GoBarber web
 
 - Estrutura configurada
+- Ajustes na API
 
 
 ### Desafio 01 - Dominando Node.js!
