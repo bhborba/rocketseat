@@ -170,7 +170,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Ajustes na API
 - Configurando rotas
 - Configurando Reactotron
-
+- Rotas privadas
 
 ### Desafio 01 - Dominando Node.js!
 
