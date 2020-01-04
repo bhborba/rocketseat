@@ -168,6 +168,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 
 - Estrutura configurada
 - Ajustes na API
+- Configurando rotas
 
 
 ### Desafio 01 - Dominando Node.js!
