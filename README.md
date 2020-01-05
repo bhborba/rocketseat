@@ -172,6 +172,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando Reactotron
 - Rotas privadas
 - Layouts por página
+- Estilos globais
 
 ### Desafio 01 - Dominando Node.js!
 
