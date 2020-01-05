@@ -176,6 +176,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Utilizando Root Import
 - Estilização da autenticação
 - Utilizando Unform
+- Validações
 
 ### Desafio 01 - Dominando Node.js!
 
