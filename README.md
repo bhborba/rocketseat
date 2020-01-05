@@ -173,6 +173,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Rotas privadas
 - Layouts por página
 - Estilos globais
+- Utilizando Root Import
 
 ### Desafio 01 - Dominando Node.js!
 
