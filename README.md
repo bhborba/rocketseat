@@ -178,6 +178,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Utilizando Unform
 - Validações
 - Configurando store
+- Autenticação
 
 ### Desafio 01 - Dominando Node.js!
 
