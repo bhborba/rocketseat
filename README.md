@@ -181,6 +181,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Autenticação
 - Armazenando perfil
 - Persistindo autenticação
+- Loading da autenticação
 
 ### Desafio 01 - Dominando Node.js!
 
