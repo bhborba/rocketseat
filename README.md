@@ -180,6 +180,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando store
 - Autenticação
 - Armazenando perfil
+- Persistindo autenticação
 
 ### Desafio 01 - Dominando Node.js!
 
