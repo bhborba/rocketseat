@@ -16,9 +16,8 @@ export default function Header() {
                     <Link to="/dashboard">DASHBOARD</Link>
                 </nav>
 
-                <asside>
+                <aside>
                     <Notifications />
-
                     <Profile>
                         <div>
                             <strong>Bruno Henrique</strong>
@@ -29,7 +28,7 @@ export default function Header() {
                             alt="Bruno Henrique"
                         />
                     </Profile>
-                </asside>
+                </aside>
             </Content>
         </Container>
     );
