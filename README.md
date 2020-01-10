@@ -188,6 +188,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando Header
 - Estilizando notificações
 - Notificações
+- Página de perfil
 
 ### Desafio 01 - Dominando Node.js!
 
