@@ -189,6 +189,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Estilizando notificações
 - Notificações
 - Página de perfil
+- Atualizando perfil
 
 ### Desafio 01 - Dominando Node.js!
 
