@@ -190,6 +190,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Notificações
 - Página de perfil
 - Atualizando perfil
+- Foto de perfil
 
 ### Desafio 01 - Dominando Node.js!
 
