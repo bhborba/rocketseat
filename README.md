@@ -1,5 +1,5 @@
 # rocketseat
-Todos os projetos criados com base nos cursos e aulas da Rocketseat
+Projetos criados durante o bootcamp da rocketseat
 
 ## Bootcamp 
 
@@ -193,6 +193,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Foto de perfil
 - Dados do Header
 - Logout da aplicação
+- Estilização do Dashboard
 
 ### Desafio 01 - Dominando Node.js!
 
