@@ -192,6 +192,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Atualizando perfil
 - Foto de perfil
 - Dados do Header
+- Logout da aplicação
 
 ### Desafio 01 - Dominando Node.js!
 
