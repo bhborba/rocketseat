@@ -195,6 +195,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Logout da aplicação
 - Estilização do Dashboard
 - Navegando entre dias
+- Listando agendamentos
 
 ### Desafio 01 - Dominando Node.js!
 
