@@ -197,6 +197,12 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Navegando entre dias
 - Listando agendamentos
 
+### modulo 10 - GoBarber mobile
+
+- Estrutura configurada
+- Configurando Root Import
+- Rotas de autenticação
+
 ### Desafio 01 - Dominando Node.js!
 
 #### Crie uma aplicação do zero utilizando Express.
