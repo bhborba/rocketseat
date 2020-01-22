@@ -208,6 +208,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Pagina SignUp
 - Configurando StatusBar
 - Dicas de acessibilidade
+- Reactotron
 
 ### Desafio 01 - Dominando Node.js!
 
