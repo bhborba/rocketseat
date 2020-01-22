@@ -207,6 +207,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Página SignIn
 - Pagina SignUp
 - Configurando StatusBar
+- Dicas de acessibilidade
 
 ### Desafio 01 - Dominando Node.js!
 
