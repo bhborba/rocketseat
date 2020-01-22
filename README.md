@@ -204,6 +204,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Rotas de autenticação
 - Configurando background
 - Input & Button
+- Página SignIn
 
 ### Desafio 01 - Dominando Node.js!
 
