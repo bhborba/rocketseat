@@ -203,6 +203,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando Root Import
 - Rotas de autenticação
 - Configurando background
+- Input & Button
 
 ### Desafio 01 - Dominando Node.js!
 
