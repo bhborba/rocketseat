@@ -213,6 +213,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Conectando Redux
 - Rota inicial
 - Estilizações das rotas
+- Lista de agendamentos
 
 ### Desafio 01 - Dominando Node.js!
 
