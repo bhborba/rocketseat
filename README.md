@@ -209,6 +209,8 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando StatusBar
 - Dicas de acessibilidade
 - Reactotron
+- Configurando Redux
+- Conectando Redux
 
 ### Desafio 01 - Dominando Node.js!
 
