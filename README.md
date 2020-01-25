@@ -211,6 +211,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Reactotron
 - Configurando Redux
 - Conectando Redux
+- Rota inicial
 
 ### Desafio 01 - Dominando Node.js!
 
