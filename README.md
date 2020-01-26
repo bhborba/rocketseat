@@ -216,6 +216,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Lista de agendamentos
 - Agendamentos da API
 - Atualização de Perfil
+- Logout
 
 ### Desafio 01 - Dominando Node.js!
 
