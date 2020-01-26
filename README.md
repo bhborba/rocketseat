@@ -214,6 +214,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Rota inicial
 - Estilizações das rotas
 - Lista de agendamentos
+- Agendamentos da API
 
 ### Desafio 01 - Dominando Node.js!
 
