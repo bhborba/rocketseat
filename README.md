@@ -220,6 +220,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Rotas de agendamento
 - Listagem de prestadores
 - DatePicker por plataforma
+- Selecionando horário
 
 ### Desafio 01 - Dominando Node.js!
 
