@@ -224,6 +224,14 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Confirmando agendamento
 - Load de agendamentos
 
+### modulo 11 - Testes no NodeJS
+- Conceitos de testes
+- Configurando projeto
+- Configurando Jest
+- Variáveis ambiente
+- Teste de criação de usuário
+- E-mail duplicado
+
 ### Desafio 01 - Dominando Node.js!
 
 #### Crie uma aplicação do zero utilizando Express.
