@@ -232,6 +232,11 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Teste de criação de usuário
 - E-mail duplicado
 
+### modulo 12 - Testes no ReactJS e React Native
+- Configurando ambiente
+- Primeiro teste
+
+
 ### Desafio 01 - Dominando Node.js!
 
 #### Crie uma aplicação do zero utilizando Express.
