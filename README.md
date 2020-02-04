@@ -235,6 +235,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 ### modulo 12 - Testes no ReactJS e React Native
 - Configurando ambiente
 - Primeiro teste
+- Testando formulario
 
 
 ### Desafio 01 - Dominando Node.js!
