@@ -236,6 +236,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Configurando ambiente
 - Primeiro teste
 - Testando formulario
+- Mock do LocalStorage
 
 
 ### Desafio 01 - Dominando Node.js!
