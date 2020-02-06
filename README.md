@@ -238,6 +238,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Testando formulario
 - Mock do LocalStorage
 - Mock do useSelector
+- Mock do useDispatch
 
 
 ### Desafio 01 - Dominando Node.js!
