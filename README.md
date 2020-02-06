@@ -240,6 +240,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Mock do useSelector
 - Mock do useDispatch
 - Testando reducers
+- Testando sagas
 
 
 ### Desafio 01 - Dominando Node.js!
