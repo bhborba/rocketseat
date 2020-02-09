@@ -25,6 +25,6 @@ describe('Techs saga', () => {
 
         await runSaga({ dispatch }, getTechs).toPromise();
 
-        expect(dispatch).toHaveBeenCalledWith(getTechsFailure())
+        expect(dispatch).toHaveBeenCalledWith(getTechsFailure());
     })
 });

@@ -242,6 +242,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Testando reducers
 - Testando sagas
 - Mock do axios
+- Coverage report
 
 
 ### Desafio 01 - Dominando Node.js!
