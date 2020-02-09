@@ -241,6 +241,7 @@ Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobi
 - Mock do useDispatch
 - Testando reducers
 - Testando sagas
+- Mock do axios
 
 
 ### Desafio 01 - Dominando Node.js!
